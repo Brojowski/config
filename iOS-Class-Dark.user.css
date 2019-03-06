@@ -47,4 +47,8 @@
     .def {
         background-color: gray;
     }
+    
+    .example {
+	    background: darkcyan;
+    }
 }
