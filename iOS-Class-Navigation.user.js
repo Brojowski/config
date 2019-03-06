@@ -1,10 +1,12 @@
 // ==UserScript==
 // @name     iOS KeyBindings
-// @version  1
+// @version  2
 // @grant    none
 // @include https://web.cs.kent.edu/~whaverst/Edu/Courses/IOS/Notes/*
 // @updateURL https://raw.githubusercontent.com/Brojowski/custom-styles/master/iOS-Class-Navigation.user.js
 // ==/UserScript==
+
+console.log('iOS Navigation Script: v2')
 
 var links = document.getElementsByTagName('a')
 
