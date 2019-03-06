@@ -8,8 +8,8 @@
 @author      Brojowski
 ==/UserStyle== */
 
-@-moz-document domain("https://web.cs.kent.edu/~whaverst/Edu/Courses/IOS") 
-{
+@-moz-document url-prefix("https://goodfurniture.com/bookshelves/")
+{    
     body {
         background-color: #212121;
         color: #FFFFFF;
