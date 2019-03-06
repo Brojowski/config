@@ -41,5 +41,10 @@
 
     pre.code {
         color: #000000;
+        background-color: gray;
+    }
+    
+    .def {
+        background-color: gray;
     }
 }
