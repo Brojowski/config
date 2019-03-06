@@ -8,37 +8,38 @@
 @author      Brojowski
 ==/UserStyle== */
 
-domain("https://web.cs.kent.edu/~whaverst/Edu/Courses/IOS")
+@-moz-document domain("https://web.cs.kent.edu/~whaverst/Edu/Courses/IOS") 
+{
+    body {
+        background-color: #212121;
+        color: #FFFFFF;
+    }
 
-body {
-    background-color: #212121;
-    color: #FFFFFF;
-}
+    h2.title2a {
+        background-color: #ad1457;
+    }
 
-h2.title2a {
-    background-color: #ad1457;
-}
+    h2.title2 {
+        background-color: #ad1457;
+    }
 
-h2.title2 {
-    background-color: #ad1457;
-}
+    h3.title3 {
+        background-color: #827717;
+    }
 
-h3.title3 {
-    background-color: #827717;
-}
+    h4.title4 {
+        background-color: #827717;
+    }
 
-h4.title4 {
-    background-color: #827717;
-}
+    a {
+        color: #64b5f6;
+    }
 
-a {
-    color: #64b5f6;
-}
+    a:visited {
+        color:#ba68c8;
+    }
 
-a:visited {
-    color:#ba68c8;
-}
-
-pre.code {
-    color: #000000;
+    pre.code {
+        color: #000000;
+    }
 }
