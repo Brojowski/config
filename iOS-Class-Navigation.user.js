@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name     iOS KeyBindings
-// @version  2
+// @version  3
 // @grant    none
 // @include https://web.cs.kent.edu/~whaverst/Edu/Courses/IOS/Notes/*
 // @updateURL https://raw.githubusercontent.com/Brojowski/custom-styles/master/iOS-Class-Navigation.user.js
@@ -23,6 +23,7 @@ for (var i = 0; i < links.length; i++) {
             next = links[i];
             break;
         case 'up':
+        case 'Notes':
             up = links[i];
             break;
     }
