@@ -1,3 +1,13 @@
+/* ==UserStyle==
+@name        Stylus Extension Dark
+@namespace   Brojowski
+@version     0.0.1
+@homepageURL https://github.com/Brojowski/custom-styles
+@updateURL   https://raw.githubusercontent.com/Brojowski/custom-styles/master/stylus-ext.user.css
+@license     MIT
+@author      Brojowski
+==/UserStyle== */
+
 body {
     background-color: rgb(39, 40, 34);
     color: white
