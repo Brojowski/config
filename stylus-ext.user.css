@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(39, 40, 34);
+    color: white
+}
+
+input[type="checkbox"]:checked {
+    background-color: green;
+}
+
+select {
+    color: white
+}
+
+a {
+    color: white;
+}
