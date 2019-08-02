@@ -7,6 +7,7 @@ Quick links to the [Stylus](https://github.com/openstyles/stylus)([Firefox]|[Chr
 - [Wikipedia Dark](https://raw.githubusercontent.com/StylishThemes/Wikipedia-Dark/master/wikipedia-dark.user.css)
 - [Quora Dark](https://raw.githubusercontent.com/StylishThemes/Quora-Dark/master/quora-dark.user.css)
 - [Google Clean Dark](http://userstyles.org/styles/144028)
+- [Stylus Extension Dark](https://raw.githubusercontent.com/Brojowski/custom-styles/master/stylus-ext.user.css)
 
 [Firefox]: https://addons.mozilla.org/en-US/firefox/addon/styl-us/
 [Chrome]: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en
