@@ -8,19 +8,21 @@
 @author      Brojowski
 ==/UserStyle== */
 
-body {
-    background-color: rgb(39, 40, 34);
-    color: white
-}
+@-moz-document url-prefix(/* Your Extension URL here */) {
+    body {
+        background-color: rgb(39, 40, 34);
+        color: white
+    }
 
-input[type="checkbox"]:checked {
-    background-color: green;
-}
+    input[type="checkbox"]:checked {
+        background-color: green;
+    }
 
-select {
-    color: white
-}
+    select {
+        color: white
+    }
 
-a {
-    color: white;
+    a {
+        color: white;
+    }
 }
