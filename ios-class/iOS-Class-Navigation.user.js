@@ -3,7 +3,7 @@
 // @version  3
 // @grant    none
 // @include https://web.cs.kent.edu/~whaverst/Edu/Courses/IOS/Notes/*
-// @updateURL https://raw.githubusercontent.com/Brojowski/custom-styles/master/iOS-Class-Navigation.user.js
+// @updateURL https://raw.githubusercontent.com/Brojowski/config/master/ios-class/iOS-Class-Navigation.user.js
 // ==/UserScript==
 
 console.log('iOS Navigation Script: v2')
