@@ -1,0 +1,31 @@
+/* ==UserStyle==
+@name        Workbench Diff
+@version     0.0.2
+@description Adds ability to compare records within Salesforce workbench
+@namespace   github.com/Brojowski
+@author      Brojowski
+@updateURL   https://raw.githubusercontent.com/Brojowski/config/master/workbench-diff/workbench-diff.user.css
+@license     MIT
+==/UserStyle== */
+
+@-moz-document regexp("http.+workbench.+retrieve.php\\?.*diff.*") {
+    body {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #diffOther {
+        width: 50%;
+        border: none;
+    }
+    
+    
+    #mainBlock {
+        width: 50%;
+        padding-bottom: 10px;
+    }
+    
+    #navMenu {
+        padding-top: 8px;
+    }
+}

@@ -1,0 +1,44 @@
+/* ==UserStyle==
+@name        Workbench Preview
+@version     0.0.2
+@description Reformats Workbench query page with preview pane and large field selector.
+@namespace   github.com/Brojowski
+@author      Brojowski
+@updateURL   https://raw.githubusercontent.com/Brojowski/config/master/workbench-preview/workbench-preview.user.css
+@license     MIT
+==/UserStyle== */
+
+
+@-moz-document url-prefix("https://workbench.developerforce.com/query"), url-prefix("http://localhost:8088/workbench/query")
+{
+  /*
+     * Move property selector to fill right side for easy visibility.
+     */
+  select#QB_field_sel {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 20% !important;
+  }
+
+  #previewPane {
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 30%;
+    height: 100%;
+  }
+
+  #mainBlock {
+    left: 21%;
+    right: 31%;
+    width: auto;
+    position: absolute;
+  }
+
+  #mainBlock form div {
+    overflow: scroll;
+  }
+}
