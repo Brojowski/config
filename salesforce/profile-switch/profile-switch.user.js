@@ -8,6 +8,7 @@
 // @match        *.salesforce.com/00e*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=force.com
 // @updateURL    https://raw.githubusercontent.com/Brojowski/config/master/salesforce/profile-switch/profile-switch.user.js
+// @downloadURL  https://raw.githubusercontent.com/Brojowski/config/master/salesforce/profile-switch/profile-switch.user.js
 // ==/UserScript==
 
 (function() {
