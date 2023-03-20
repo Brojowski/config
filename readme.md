@@ -129,3 +129,22 @@ Format this document:
 Find: `(^\n)+# `
 Replace: `\n\n\n\n\n# `
 </span>
+
+
+
+
+
+
+# Salesforce Workbench Opener
+
+Open workbench in non-Chromium browsers (if your browser is Chromium based, use [this extension](https://chrome.google.com/webstore/detail/workbench-tools-for-googl/nanhambbggdgkloeldahjngdmngjgmhk))
+
+## Installation
+
+- [UserScript](https://raw.githubusercontent.com/Brojowski/config/master/salesforce/open-workbench/open-workbench.user.js)
+
+## Usage
+
+1. Create a bookmark with the url: `javascript:void(document.location.pathname = "/home/home.jsp&workbench=true")`
+2. Click the bookmark while on a SalesForce page
+3. It should redirect first to Classic, then to Workbench
