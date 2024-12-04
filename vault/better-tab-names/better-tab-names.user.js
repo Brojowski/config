@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Vault: Better Tab Names
 // @namespace    github.com/Brojowski
-// @version      2024-11-20
+// @version      2024-12-04
 // @description  Take the Vault heading and use it in place of the default tab name.
 // @author       Brojowski
 // @match        https://*.vaultpvm.com/ui/
@@ -29,17 +29,16 @@
             elements = elements.concat(Array.from(document.getElementsByClassName(headerTags[i])));
         }
         
-        console.log('findBetterPageTitle', elements);
+        //console.log('findBetterPageTitle', elements);
 
 
         var nameSource = elements.pop();
         if (nameSource) {
             var name = nameSource.innerText;
-            console.log("Better Page Title: ", name);
+            //console.log("Better Page Title: ", name);
             document.title = name;
-        } else {
-            setTimeout(findBetterPageTitle, 1000);
-        }
+        } 
+        setTimeout(findBetterPageTitle, 1000);
     }
 
     findBetterPageTitle();
